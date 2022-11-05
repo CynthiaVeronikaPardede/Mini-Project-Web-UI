@@ -1,0 +1,225 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "cbaa4db6-213c-446e-a15a-faf564ed421c",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7945524100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated to login page",
+            "match": {
+              "location": "LoginSteps.nagivateToLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d589befe-c2b7-4a86-b211-ec8f18c78835"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "cbaa4db6-213c-446e-a15a-faf564ed421c",
+        "line": 15,
+        "name": "user want to login with unregistered account",
+        "description": "",
+        "id": "log-in-invalid;user-want-to-login-with-unregistered-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1751919900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input frizzi12@gmail.com email and testing123 password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginSteps.EnterInputEmailPassword(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f071c3e6-cfd1-4740-9815-54cc74b0cc92"
+          },
+          {
+            "result": {
+              "duration": 358587900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginSteps.clickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6ffa97bc-d16d-473e-964a-193bea0ef393"
+          },
+          {
+            "result": {
+              "duration": 4615624500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "system verifying condition",
+            "match": {
+              "location": "LoginSteps.verifyHomePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "af77da66-43f3-4575-9f1b-c56926651b08"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login1"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "3a60522f-c140-48bd-9b96-8ab49c97393e",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6595534700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated to login page",
+            "match": {
+              "location": "LoginSteps.nagivateToLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "417714f0-ccbe-4544-8721-74201762ea9d"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "3a60522f-c140-48bd-9b96-8ab49c97393e",
+        "line": 26,
+        "name": "user want to login with invalid password and valid email",
+        "description": "",
+        "id": "log-in-invalid;user-want-to-login-with-invalid-password-and-valid-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1080228900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter frizzi12@gmail.com  email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com ",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.UserEnterEmail(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "cf80dd84-2a1b-4411-9c5b-29524695b114"
+          },
+          {
+            "result": {
+              "duration": 678268000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter  samsudin  password",
+            "match": {
+              "arguments": [
+                {
+                  "val": " samsudin ",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.UserEnterPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8183ce6d-fed9-47fe-b4ee-488e73eb0ee8"
+          },
+          {
+            "result": {
+              "duration": 367703000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click login buttom",
+            "match": {
+              "location": "LoginSteps.UserClickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cee44546-d854-4a10-b1d7-40a8bffb9428"
+          },
+          {
+            "result": {
+              "duration": 1816780400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verify login",
+            "match": {
+              "location": "LoginSteps.UserVerifyHomePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ef72e1c1-9c58-4adb-b8c7-d376d4cdd401"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Log In invalid",
+    "description": "",
+    "id": "log-in-invalid",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Login/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

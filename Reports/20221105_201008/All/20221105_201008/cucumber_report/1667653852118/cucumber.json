@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6833740300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated login page",
+            "match": {
+              "location": "LogoutSteps.nagivateToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "user want to login with unregistered account",
+        "description": "",
+        "id": "log-in-invalid;user-want-to-login-with-unregistered-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1754040200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input frizzi12@gmail.com email and testing123 password with valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 40
+                }
+              ],
+              "location": "LogoutSteps.EnterInputEmailPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 355548600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click login button to login",
+            "match": {
+              "location": "LogoutSteps.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4583676700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click icon logout",
+            "match": {
+              "location": "LogoutSteps.UserClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1718670700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify condition logout",
+            "match": {
+              "location": "LogoutSteps.verifyHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout"
+          },
+          {
+            "name": "@logout1"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "Log In invalid",
+    "description": "",
+    "id": "log-in-invalid",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Logout/Logout.feature",
+    "tags": [
+      {
+        "name": "@logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

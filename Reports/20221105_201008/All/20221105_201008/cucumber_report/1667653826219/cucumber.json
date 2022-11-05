@@ -1,0 +1,212 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7945524100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated to login page",
+            "match": {
+              "location": "LoginSteps.nagivateToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "user want to login with unregistered account",
+        "description": "",
+        "id": "log-in-invalid;user-want-to-login-with-unregistered-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1751919900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input frizzi12@gmail.com email and testing123 password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginSteps.EnterInputEmailPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 358587900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginSteps.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4615624500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "system verifying condition",
+            "match": {
+              "location": "LoginSteps.verifyHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login1"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6595534700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated to login page",
+            "match": {
+              "location": "LoginSteps.nagivateToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "user want to login with invalid password and valid email",
+        "description": "",
+        "id": "log-in-invalid;user-want-to-login-with-invalid-password-and-valid-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1080228900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter frizzi12@gmail.com  email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com ",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.UserEnterEmail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678268000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter  samsudin  password",
+            "match": {
+              "arguments": [
+                {
+                  "val": " samsudin ",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.UserEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367703000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click login buttom",
+            "match": {
+              "location": "LoginSteps.UserClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1816780400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verify login",
+            "match": {
+              "location": "LoginSteps.UserVerifyHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Log In invalid",
+    "description": "",
+    "id": "log-in-invalid",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Login/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

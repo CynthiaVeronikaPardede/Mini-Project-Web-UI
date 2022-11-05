@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6655522900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "ProductSteps.UserNavigateToLogin()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "user want to view detail item",
+        "description": "",
+        "id": "view-detail-item;user-want-to-view-detail-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1863497700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter frizzi12@gmail.com email valid and testing123 password valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 46
+                }
+              ],
+              "location": "ProductSteps.UserEnterValidData(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 358154600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click button to login",
+            "match": {
+              "location": "ProductSteps.UserClickButtomToLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3923113900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click buttom detail",
+            "match": {
+              "location": "ProductSteps.UserClickButtomDetail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3381754600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify detail item",
+            "match": {
+              "location": "ProductSteps.UserVerifyDetailItem()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewItem"
+          },
+          {
+            "name": "@ViewItem1"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "View Detail Item",
+    "description": "",
+    "id": "view-detail-item",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Products/Products.feature",
+    "tags": [
+      {
+        "name": "@ViewItem",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

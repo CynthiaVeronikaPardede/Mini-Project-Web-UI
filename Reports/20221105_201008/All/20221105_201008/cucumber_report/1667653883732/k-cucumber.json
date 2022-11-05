@@ -1,0 +1,218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "c82a6ec9-42ae-40f4-8191-a690c5cdc04f",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2790439600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated to register page",
+            "match": {
+              "location": "RegisterSteps.nagivateToRegisterPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7e63dd88-eb46-492c-b368-69d4c1877e1b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "c82a6ec9-42ae-40f4-8191-a690c5cdc04f",
+        "line": 15,
+        "name": "User want to register with valid Credentials",
+        "description": "",
+        "id": "register-with-valid;user-want-to-register-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2451092200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input nama1112 and nama1211@gmail.com  and also  passworddd2 ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nama1112",
+                  "offset": 11
+                },
+                {
+                  "val": "nama1211@gmail.com ",
+                  "offset": 24
+                },
+                {
+                  "val": " passworddd2 ",
+                  "offset": 53
+                }
+              ],
+              "location": "RegisterSteps.enterEmptyFullnameCredentials(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "bc4cbcd5-4a0c-481b-9ddd-16d8d28b3fe8"
+          },
+          {
+            "result": {
+              "duration": 353256200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click register button",
+            "match": {
+              "location": "RegisterSteps.clickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "989f480f-3f74-4427-ae3d-94a47ef9b46d"
+          },
+          {
+            "result": {
+              "duration": 2463804900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verifying condition for valid",
+            "match": {
+              "location": "RegisterSteps.verifyHomePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a46be5c4-1d79-41d7-96a1-54889270f918"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@register1"
+          },
+          {
+            "name": "@postive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2054b48c-3b6d-4241-b09e-c50e5ea5916f",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3379706500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigated to register page",
+            "match": {
+              "location": "RegisterSteps.nagivateToRegisterPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7e75cc5f-d6af-444c-b137-4cc9c4973333"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2054b48c-3b6d-4241-b09e-c50e5ea5916f",
+        "line": 25,
+        "name": "User want to register with failed",
+        "description": "",
+        "id": "register-with-valid;user-want-to-register-with-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2147454100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter nama1112 and  45  and also ()  with invalid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nama1112",
+                  "offset": 11
+                },
+                {
+                  "val": " 45 ",
+                  "offset": 24
+                },
+                {
+                  "val": "() ",
+                  "offset": 38
+                }
+              ],
+              "location": "RegisterSteps.UserEnterFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "542c180a-58a9-4c86-b470-92b4a97cdd00"
+          },
+          {
+            "result": {
+              "duration": 356245300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click register button to register",
+            "match": {
+              "location": "RegisterSteps.UserClickRegisterButtom()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "dce1e56d-f19b-45fe-8b5d-7be333f83d92"
+          },
+          {
+            "result": {
+              "duration": 2365282600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify condition for valid",
+            "match": {
+              "location": "RegisterSteps.VerifyConditionForValid()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "972cb88b-b183-43bb-a344-6e878b695aaf"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@register1"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register With Valid",
+    "description": "",
+    "id": "register-with-valid",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Register/Register.feature",
+    "tags": [
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

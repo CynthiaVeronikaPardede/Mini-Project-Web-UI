@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All" time="108.523" tests="1" failures="0" errors="0">
+   <testsuite name="All" tests="1" failures="0" errors="0" time="108.523" skipped="0" timestamp="2022-11-05 20:10:25" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/All">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\MiniProyek\\CICD\\Mini-Project-Web-UI\\Reports\\20221105_201008\\All\\20221105_201008"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\MiniProyek\\CICD\\Mini-Project-Web-UI\\Reports\\20221105_201008\\All\\20221105_201008\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="97d5e91eacbbdaeb0ae40d317fa41a34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RunFeatureFile" time="108.316" classname="Test Cases/RunFeatureFile" status="PASSED">
+         <system-out><![CDATA[2022-11-05 20:10:25 - [TEST_CASE][PASSED] - Test Cases/RunFeatureFile: Test Cases/RunFeatureFile
+
+2022-11-05 20:10:26 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login/Login.feature"): Feature file: 'Include/features/Login/Login.feature' was passed
+
+2022-11-05 20:10:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login/Login.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\Mini-Project-Web-UI\Reports\20221105_201008\All\20221105_201008/cucumber_report/1667653826219'...
+
+2022-11-05 20:10:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO user want to login with unregistered account: SCENARIO user want to login with unregistered account
+
+2022-11-05 20:10:26 - [TEST_STEP][PASSED] - user navigated to login page: user navigated to login page
+
+2022-11-05 20:10:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:10:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:10:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:10:30 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-05 20:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-05 20:10:34 - [MESSAGE][PASSED] - user navigated to login page
+
+2022-11-05 20:10:34 - [TEST_STEP][PASSED] - user input frizzi12@gmail.com email and testing123 password: user input frizzi12@gmail.com email and testing123 password
+
+2022-11-05 20:10:35 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Email_input-18'
+
+2022-11-05 20:10:36 - [MESSAGE][PASSED] - Text 'testing123' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Password_input-21'
+
+2022-11-05 20:10:36 - [MESSAGE][PASSED] - user input frizzi12@gmail.com email and testing123 password
+
+2022-11-05 20:10:36 - [TEST_STEP][PASSED] - user click login button: user click login button
+
+2022-11-05 20:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Alta/Page_frontend-web/button_Login' is clicked on
+
+2022-11-05 20:10:36 - [MESSAGE][PASSED] - user click login button
+
+2022-11-05 20:10:36 - [TEST_STEP][PASSED] - system verifying condition: system verifying condition
+
+2022-11-05 20:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Auth/Login/h3_AltaShop' is visible
+
+2022-11-05 20:10:41 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-05 20:10:41 - [MESSAGE][PASSED] - system verifying condition
+
+2022-11-05 20:10:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO user want to login with invalid password and valid email: SCENARIO user want to login with invalid password and valid email
+
+2022-11-05 20:10:41 - [TEST_STEP][PASSED] - user navigated to login page: user navigated to login page
+
+2022-11-05 20:10:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:10:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:10:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:10:45 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-05 20:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-05 20:10:48 - [MESSAGE][PASSED] - user navigated to login page
+
+2022-11-05 20:10:48 - [TEST_STEP][PASSED] - user enter frizzi12@gmail.com  email: user enter frizzi12@gmail.com  email
+
+2022-11-05 20:10:49 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com ' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Email_input-18'
+
+2022-11-05 20:10:49 - [MESSAGE][PASSED] - user enter frizzi12@gmail.com  email
+
+2022-11-05 20:10:49 - [TEST_STEP][PASSED] - User enter  samsudin  password: User enter  samsudin  password
+
+2022-11-05 20:10:49 - [MESSAGE][PASSED] - Text ' samsudin ' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Password_input-21'
+
+2022-11-05 20:10:49 - [MESSAGE][PASSED] - User enter  samsudin  password
+
+2022-11-05 20:10:49 - [TEST_STEP][PASSED] - user click login buttom: user click login buttom
+
+2022-11-05 20:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Alta/Page_frontend-web/button_Login' is clicked on
+
+2022-11-05 20:10:50 - [MESSAGE][PASSED] - user click login buttom
+
+2022-11-05 20:10:50 - [TEST_STEP][PASSED] - User verify login: User verify login
+
+2022-11-05 20:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login Alta/Page_frontend-web/button_Login' is visible
+
+2022-11-05 20:10:52 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-05 20:10:52 - [MESSAGE][PASSED] - User verify login
+
+2022-11-05 20:10:52 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login/Login.feature' was passed
+
+2022-11-05 20:10:52 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Logout/Logout.feature"): Feature file: 'Include/features/Logout/Logout.feature' was passed
+
+2022-11-05 20:10:52 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Logout/Logout.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\Mini-Project-Web-UI\Reports\20221105_201008\All\20221105_201008/cucumber_report/1667653852118'...
+
+2022-11-05 20:10:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO user want to login with unregistered account: SCENARIO user want to login with unregistered account
+
+2022-11-05 20:10:52 - [TEST_STEP][PASSED] - user navigated login page: user navigated login page
+
+2022-11-05 20:10:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:10:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:10:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:10:55 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-05 20:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-05 20:10:59 - [MESSAGE][PASSED] - user navigated login page
+
+2022-11-05 20:10:59 - [TEST_STEP][PASSED] - user input frizzi12@gmail.com email and testing123 password with valid: user input frizzi12@gmail.com email and testing123 password with valid
+
+2022-11-05 20:11:00 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Email_input-18'
+
+2022-11-05 20:11:00 - [MESSAGE][PASSED] - Text 'testing123' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Password_input-21'
+
+2022-11-05 20:11:00 - [MESSAGE][PASSED] - user input frizzi12@gmail.com email and testing123 password with valid
+
+2022-11-05 20:11:00 - [TEST_STEP][PASSED] - user click login button to login: user click login button to login
+
+2022-11-05 20:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Alta/Page_frontend-web/button_Login' is clicked on
+
+2022-11-05 20:11:01 - [MESSAGE][PASSED] - user click login button to login
+
+2022-11-05 20:11:01 - [TEST_STEP][PASSED] - User click icon logout: User click icon logout
+
+2022-11-05 20:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Log Out/baru/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e' is clicked on
+
+2022-11-05 20:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Log Out/baru/Page_frontend-web/div_Logout' is clicked on
+
+2022-11-05 20:11:05 - [MESSAGE][PASSED] - User click icon logout
+
+2022-11-05 20:11:05 - [TEST_STEP][PASSED] - Verify condition logout: Verify condition logout
+
+2022-11-05 20:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Log Out/baru/Page_frontend-web/h3_AltaShop' is clicked on
+
+2022-11-05 20:11:07 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-05 20:11:07 - [MESSAGE][PASSED] - Verify condition logout
+
+2022-11-05 20:11:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/Logout/Logout.feature' was passed
+
+2022-11-05 20:11:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Products/Products.feature"): Feature file: 'Include/features/Products/Products.feature' was passed
+
+2022-11-05 20:11:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Products/Products.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\Mini-Project-Web-UI\Reports\20221105_201008\All\20221105_201008/cucumber_report/1667653867454'...
+
+2022-11-05 20:11:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO user want to view detail item: SCENARIO user want to view detail item
+
+2022-11-05 20:11:07 - [TEST_STEP][PASSED] - user navigate to login page: user navigate to login page
+
+2022-11-05 20:11:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:11:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:11:10 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-05 20:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-05 20:11:14 - [MESSAGE][PASSED] - user navigate to login page
+
+2022-11-05 20:11:14 - [TEST_STEP][PASSED] - user enter frizzi12@gmail.com email valid and testing123 password valid: user enter frizzi12@gmail.com email valid and testing123 password valid
+
+2022-11-05 20:11:15 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Email_input-18'
+
+2022-11-05 20:11:16 - [MESSAGE][PASSED] - Text 'testing123' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Password_input-21'
+
+2022-11-05 20:11:16 - [MESSAGE][PASSED] - user enter frizzi12@gmail.com email valid and testing123 password valid
+
+2022-11-05 20:11:16 - [TEST_STEP][PASSED] - user click button to login: user click button to login
+
+2022-11-05 20:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-05 20:11:16 - [MESSAGE][PASSED] - user click button to login
+
+2022-11-05 20:11:16 - [TEST_STEP][PASSED] - User click buttom detail: User click buttom detail
+
+2022-11-05 20:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Detail' is clicked on
+
+2022-11-05 20:11:20 - [MESSAGE][PASSED] - User click buttom detail
+
+2022-11-05 20:11:20 - [TEST_STEP][PASSED] - User verify detail item: User verify detail item
+
+2022-11-05 20:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/h3_AltaShop' is clicked on
+
+2022-11-05 20:11:23 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-05 20:11:23 - [MESSAGE][PASSED] - User verify detail item
+
+2022-11-05 20:11:23 - [MESSAGE][PASSED] - Feature file: 'Include/features/Products/Products.feature' was passed
+
+2022-11-05 20:11:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Register/Register.feature"): Feature file: 'Include/features/Register/Register.feature' was passed
+
+2022-11-05 20:11:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register/Register.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\Mini-Project-Web-UI\Reports\20221105_201008\All\20221105_201008/cucumber_report/1667653883732'...
+
+2022-11-05 20:11:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User want to register with valid Credentials: SCENARIO User want to register with valid Credentials
+
+2022-11-05 20:11:23 - [TEST_STEP][PASSED] - user navigated to register page: user navigated to register page
+
+2022-11-05 20:11:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:11:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:11:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:11:26 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/register' successfully
+
+2022-11-05 20:11:26 - [MESSAGE][PASSED] - user navigated to register page
+
+2022-11-05 20:11:26 - [TEST_STEP][PASSED] - user input nama1112 and nama1211@gmail.com  and also  passworddd2 : user input nama1112 and nama1211@gmail.com  and also  passworddd2 
+
+2022-11-05 20:11:27 - [MESSAGE][PASSED] - Text 'nama1112' is set on object 'Object Repository/Auth/Register/input_Nama Lengkap'
+
+2022-11-05 20:11:28 - [MESSAGE][PASSED] - Text 'nama1211@gmail.com ' is set on object 'Object Repository/Auth/Register/input_Email'
+
+2022-11-05 20:11:28 - [MESSAGE][PASSED] - Text ' passworddd2 ' is set on object 'Object Repository/Auth/Register/input_Password'
+
+2022-11-05 20:11:29 - [MESSAGE][PASSED] - user input nama1112 and nama1211@gmail.com  and also  passworddd2 
+
+2022-11-05 20:11:29 - [TEST_STEP][PASSED] - user click register button: user click register button
+
+2022-11-05 20:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Register/span_Register' is clicked on
+
+2022-11-05 20:11:29 - [MESSAGE][PASSED] - user click register button
+
+2022-11-05 20:11:29 - [TEST_STEP][PASSED] - verifying condition for valid: verifying condition for valid
+
+2022-11-05 20:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/authterbaru/Page_frontend-web/h3_AltaShop' is clicked on
+
+2022-11-05 20:11:31 - [MESSAGE][PASSED] - verifying condition for valid
+
+2022-11-05 20:11:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User want to register with failed: SCENARIO User want to register with failed
+
+2022-11-05 20:11:31 - [TEST_STEP][PASSED] - user navigated to register page: user navigated to register page
+
+2022-11-05 20:11:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-05 20:11:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:11:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:11:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:11:35 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/register' successfully
+
+2022-11-05 20:11:35 - [MESSAGE][PASSED] - user navigated to register page
+
+2022-11-05 20:11:35 - [TEST_STEP][PASSED] - user enter nama1112 and  45  and also ()  with invalid: user enter nama1112 and  45  and also ()  with invalid
+
+2022-11-05 20:11:35 - [MESSAGE][PASSED] - Text 'nama1112' is set on object 'Object Repository/Auth/Register/input_Nama Lengkap'
+
+2022-11-05 20:11:36 - [MESSAGE][PASSED] - Text ' 45 ' is set on object 'Object Repository/Auth/Register/input_Email'
+
+2022-11-05 20:11:37 - [MESSAGE][PASSED] - Text '() ' is set on object 'Object Repository/Auth/Register/input_Password'
+
+2022-11-05 20:11:37 - [MESSAGE][PASSED] - user enter nama1112 and  45  and also ()  with invalid
+
+2022-11-05 20:11:37 - [TEST_STEP][PASSED] - user click register button to register: user click register button to register
+
+2022-11-05 20:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Register/span_Register' is clicked on
+
+2022-11-05 20:11:37 - [MESSAGE][PASSED] - user click register button to register
+
+2022-11-05 20:11:37 - [TEST_STEP][PASSED] - verify condition for valid: verify condition for valid
+
+2022-11-05 20:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/authterbaru/Page_frontend-web/h3_AltaShop' is clicked on
+
+2022-11-05 20:11:40 - [MESSAGE][PASSED] - verify condition for valid
+
+2022-11-05 20:11:40 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register/Register.feature' was passed
+
+2022-11-05 20:11:40 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Transaction/Transaction.feature"): Feature file: 'Include/features/Transaction/Transaction.feature' was passed
+
+2022-11-05 20:11:40 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Transaction/Transaction.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\Mini-Project-Web-UI\Reports\20221105_201008\All\20221105_201008/cucumber_report/1667653900138'...
+
+2022-11-05 20:11:40 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO user want to view detail item: SCENARIO user want to view detail item
+
+2022-11-05 20:11:40 - [TEST_STEP][PASSED] - user navigate login page: user navigate login page
+
+2022-11-05 20:11:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-05 20:11:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:11:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:11:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:11:44 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-05 20:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-05 20:11:48 - [MESSAGE][PASSED] - user navigate login page
+
+2022-11-05 20:11:48 - [TEST_STEP][PASSED] - user enter frizzi12@gmail.com email and testing123 password valid: user enter frizzi12@gmail.com email and testing123 password valid
+
+2022-11-05 20:11:49 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Email_input-18'
+
+2022-11-05 20:11:50 - [MESSAGE][PASSED] - Text 'testing123' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Password_input-21'
+
+2022-11-05 20:11:50 - [MESSAGE][PASSED] - user enter frizzi12@gmail.com email and testing123 password valid
+
+2022-11-05 20:11:50 - [TEST_STEP][PASSED] - user click buttom to login: user click buttom to login
+
+2022-11-05 20:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/span_Login' is clicked on
+
+2022-11-05 20:11:50 - [MESSAGE][PASSED] - user click buttom to login
+
+2022-11-05 20:11:50 - [TEST_STEP][PASSED] - User click buttom Beli: User click buttom Beli
+
+2022-11-05 20:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/button_Beli' is clicked on
+
+2022-11-05 20:11:54 - [MESSAGE][PASSED] - User click buttom Beli
+
+2022-11-05 20:11:54 - [TEST_STEP][PASSED] - User click icon card: User click icon card
+
+2022-11-05 20:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-05 20:11:55 - [MESSAGE][PASSED] - User click icon card
+
+2022-11-05 20:11:55 - [TEST_STEP][PASSED] - User click button Bayar: User click button Bayar
+
+2022-11-05 20:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/button_Bayar' is clicked on
+
+2022-11-05 20:11:55 - [MESSAGE][PASSED] - User click button Bayar
+
+2022-11-05 20:11:55 - [TEST_STEP][PASSED] - User verify Transaction success: User verify Transaction success
+
+2022-11-05 20:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/h3_AltaShop' is clicked on
+
+2022-11-05 20:11:58 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-05 20:11:58 - [MESSAGE][PASSED] - User verify Transaction success
+
+2022-11-05 20:11:58 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO user want to view detail item but failed: SCENARIO user want to view detail item but failed
+
+2022-11-05 20:11:58 - [TEST_STEP][PASSED] - user navigate login page: user navigate login page
+
+2022-11-05 20:11:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-05 20:11:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-05 20:11:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-05 20:12:01 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-05 20:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-05 20:12:05 - [MESSAGE][PASSED] - user navigate login page
+
+2022-11-05 20:12:05 - [TEST_STEP][PASSED] - user enter frizzi12@gmail.com email and testing123 password with valid: user enter frizzi12@gmail.com email and testing123 password with valid
+
+2022-11-05 20:12:06 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Email_input-18'
+
+2022-11-05 20:12:07 - [MESSAGE][PASSED] - Text 'testing123' is set on object 'Object Repository/Login Alta/Page_frontend-web/input_Password_input-21'
+
+2022-11-05 20:12:07 - [MESSAGE][PASSED] - user enter frizzi12@gmail.com email and testing123 password with valid
+
+2022-11-05 20:12:07 - [TEST_STEP][PASSED] - user click buttom login: user click buttom login
+
+2022-11-05 20:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/span_Login' is clicked on
+
+2022-11-05 20:12:07 - [MESSAGE][PASSED] - user click buttom login
+
+2022-11-05 20:12:07 - [TEST_STEP][PASSED] - User click buttom Beli to buy: User click buttom Beli to buy
+
+2022-11-05 20:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/button_Beli' is clicked on
+
+2022-11-05 20:12:11 - [MESSAGE][PASSED] - User click buttom Beli to buy
+
+2022-11-05 20:12:11 - [TEST_STEP][PASSED] - User click icon card to add: User click icon card to add
+
+2022-11-05 20:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-05 20:12:11 - [MESSAGE][PASSED] - User click icon card to add
+
+2022-11-05 20:12:11 - [TEST_STEP][PASSED] - User click to icon to reduce item: User click to icon to reduce item
+
+2022-11-05 20:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/transactionNegatif/Page_frontend-web/span_-' is clicked on
+
+2022-11-05 20:12:12 - [MESSAGE][PASSED] - User click to icon to reduce item
+
+2022-11-05 20:12:12 - [TEST_STEP][PASSED] - User verify Transaction failed: User verify Transaction failed
+
+2022-11-05 20:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/h3_AltaShop' is clicked on
+
+2022-11-05 20:12:14 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-05 20:12:14 - [MESSAGE][PASSED] - User verify Transaction failed
+
+2022-11-05 20:12:14 - [MESSAGE][PASSED] - Feature file: 'Include/features/Transaction/Transaction.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-05 20:10:25 - [TEST_SUITE][PASSED] - All: Test Cases/RunFeatureFile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

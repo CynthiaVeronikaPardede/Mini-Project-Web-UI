@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="25.408907">
+<testcase classname="Log In invalid" name="user want to login with unregistered account" time="14.860018">
+<system-out><![CDATA[Given user navigated to login page..........................................passed
+When user input frizzi12@gmail.com email and testing123 password............passed
+And user click login button.................................................passed
+Then system verifying condition.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Log In invalid" name="user want to login with invalid password and valid email" time="10.548889">
+<system-out><![CDATA[Given user navigated to login page..........................................passed
+When user enter frizzi12@gmail.com  email...................................passed
+And User enter  samsudin  password..........................................passed
+And user click login buttom.................................................passed
+Then User verify login......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

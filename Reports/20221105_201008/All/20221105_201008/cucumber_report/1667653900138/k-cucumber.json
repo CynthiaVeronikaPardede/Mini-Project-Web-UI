@@ -1,0 +1,288 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "eb1ce34a-cff0-4e0a-a3c6-438e70e465c2",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8272239400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate login page",
+            "match": {
+              "location": "TransactionSteps.I_want_to_write_a_step_with_name()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "485978d1-8e31-4551-be1d-e4aedef40318"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "eb1ce34a-cff0-4e0a-a3c6-438e70e465c2",
+        "line": 18,
+        "name": "user want to view detail item",
+        "description": "",
+        "id": "transaction-item;user-want-to-view-detail-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1742276700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter frizzi12@gmail.com email and testing123 password valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 40
+                }
+              ],
+              "location": "TransactionSteps.I_check_for_the_value_in_step(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "c309e197-8e48-4157-80bf-3559a56c159b"
+          },
+          {
+            "result": {
+              "duration": 354931300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click buttom to login",
+            "match": {
+              "location": "TransactionSteps.UserClickButtomToLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "009bcf17-b0b7-422a-b600-d8ead0bc5fcc"
+          },
+          {
+            "result": {
+              "duration": 4090341700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click buttom Beli",
+            "match": {
+              "location": "TransactionSteps.UserClickButtomBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e176575d-3729-4c94-8152-b910a1842585"
+          },
+          {
+            "result": {
+              "duration": 607194600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click icon card",
+            "match": {
+              "location": "TransactionSteps.UserClickIconCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c7dcb797-8cd1-4449-9e15-01e69b7bbdbd"
+          },
+          {
+            "result": {
+              "duration": 530282700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click button Bayar",
+            "match": {
+              "location": "TransactionSteps.UserClickButtonBayar()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b4df40c7-7f2a-4b20-b410-6f4d824a4d03"
+          },
+          {
+            "result": {
+              "duration": 2625149500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verify Transaction success",
+            "match": {
+              "location": "TransactionSteps.UserVerifyTransactionSuccess()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "43f36e9b-6a8c-4c6e-b5c7-c853c08769b4"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Transaction"
+          },
+          {
+            "name": "@Transaction1"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b994fa1d-d908-4cbd-9946-540029099cf6",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6771691200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate login page",
+            "match": {
+              "location": "TransactionSteps.I_want_to_write_a_step_with_name()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "278e934f-854a-4035-b6f5-3836dbd495d1"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b994fa1d-d908-4cbd-9946-540029099cf6",
+        "line": 31,
+        "name": "user want to view detail item but failed",
+        "description": "",
+        "id": "transaction-item;user-want-to-view-detail-item-but-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1755597500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter frizzi12@gmail.com email and testing123 password with valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 40
+                }
+              ],
+              "location": "TransactionSteps.UserInputEmailPasswordWithValid(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "cbfeeaa7-0d16-4d9f-ba50-a0e9a35b1f51"
+          },
+          {
+            "result": {
+              "duration": 459463400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click buttom login",
+            "match": {
+              "location": "TransactionSteps.UserClickButtomLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "533361fe-889b-4611-87fb-dc6bc4d48e8b"
+          },
+          {
+            "result": {
+              "duration": 3882242800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click buttom Beli to buy",
+            "match": {
+              "location": "TransactionSteps.UserClickButtomBeliToBuy()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "355ff394-02f7-4d20-9629-4d3e7683a850"
+          },
+          {
+            "result": {
+              "duration": 594575800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click icon card to add",
+            "match": {
+              "location": "TransactionSteps.UserClickIconCardToAdd()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e71826ab-5010-47b5-9779-81bc74244af2"
+          },
+          {
+            "result": {
+              "duration": 623727700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click to icon to reduce item",
+            "match": {
+              "location": "TransactionSteps.UserClickToreduceItem()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7f9e18d1-fcaf-4a9e-b8c2-3f3fdbd1474d"
+          },
+          {
+            "result": {
+              "duration": 1602740900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User verify Transaction failed",
+            "match": {
+              "location": "TransactionSteps.UserVerifyTransactionFailed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "59939766-692e-4f26-b188-6a61a24180c5"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Transaction"
+          },
+          {
+            "name": "@Transaction1"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Transaction Item",
+    "description": "",
+    "id": "transaction-item",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Transaction/Transaction.feature",
+    "tags": [
+      {
+        "name": "@Transaction",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

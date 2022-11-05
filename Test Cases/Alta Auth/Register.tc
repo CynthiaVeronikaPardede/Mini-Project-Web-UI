@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>706d655a-bfdf-4759-9b21-654a316123ff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1bf057c-3833-4b52-ac68-fe77c9732f09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d3d668c-f6df-445c-801d-1cbed9f6c048</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19007830-cb67-4aab-b01e-ba976be36f73</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1bf057c-3833-4b52-ac68-fe77c9732f09</id>
+      <masked>false</masked>
+      <name>valueFullName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d3d668c-f6df-445c-801d-1cbed9f6c048</id>
+      <masked>false</masked>
+      <name>valueEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19007830-cb67-4aab-b01e-ba976be36f73</id>
+      <masked>false</masked>
+      <name>valuePassword</name>
+   </variable>
+</TestCaseEntity>

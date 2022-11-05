@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.195032">
+<testcase classname="View Detail Item" name="user want to view detail item" time="16.195032">
+<system-out><![CDATA[Given user navigate to login page...........................................passed
+When user enter frizzi12@gmail.com email valid and testing123 password valid.passed
+And user click button to login..............................................passed
+And User click buttom detail................................................passed
+Then User verify detail item................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

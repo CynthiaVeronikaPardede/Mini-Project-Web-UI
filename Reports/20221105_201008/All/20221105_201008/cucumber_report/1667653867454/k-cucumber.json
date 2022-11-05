@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "dbd88436-5334-4a89-a06a-08fb79bde651",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6655522900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "ProductSteps.UserNavigateToLogin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "78879805-253f-4a9d-8c7d-06f9fc391cec"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "dbd88436-5334-4a89-a06a-08fb79bde651",
+        "line": 16,
+        "name": "user want to view detail item",
+        "description": "",
+        "id": "view-detail-item;user-want-to-view-detail-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1863497700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter frizzi12@gmail.com email valid and testing123 password valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "testing123",
+                  "offset": 46
+                }
+              ],
+              "location": "ProductSteps.UserEnterValidData(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a4d991bd-f665-4e5e-bc3f-82f5dfa2dd2c"
+          },
+          {
+            "result": {
+              "duration": 358154600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click button to login",
+            "match": {
+              "location": "ProductSteps.UserClickButtomToLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2944b07d-7cc6-478b-8169-65961c088348"
+          },
+          {
+            "result": {
+              "duration": 3923113900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click buttom detail",
+            "match": {
+              "location": "ProductSteps.UserClickButtomDetail()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "db6729dd-7182-4fc4-b130-a49895230ff6"
+          },
+          {
+            "result": {
+              "duration": 3381754600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify detail item",
+            "match": {
+              "location": "ProductSteps.UserVerifyDetailItem()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "cfd07b34-2706-44fb-bc36-1079329c1584"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewItem"
+          },
+          {
+            "name": "@ViewItem1"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "View Detail Item",
+    "description": "",
+    "id": "view-detail-item",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/Mini-Project-Web-UI/Include/features/Products/Products.feature",
+    "tags": [
+      {
+        "name": "@ViewItem",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All,Chrome 107.0.0.0,,,2022-11-05 20:10:25,2022-11-05 20:12:14,1m - 48.523s,PASSED
+,,,,,,,
+Test Cases/RunFeatureFile,Chrome 107.0.0.0,,,2022-11-05 20:10:25,2022-11-05 20:12:14,1m - 48.316s,PASSED
+"runFeatureFile(""Include/features/Login/Login.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:10:26,2022-11-05 20:10:52,25.941s,PASSED
+"runFeatureFile(""Include/features/Logout/Logout.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:10:52,2022-11-05 20:11:07,15.335s,PASSED
+"runFeatureFile(""Include/features/Products/Products.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:11:07,2022-11-05 20:11:23,16.278s,PASSED
+"runFeatureFile(""Include/features/Register/Register.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:11:23,2022-11-05 20:11:40,16.406s,PASSED
+"runFeatureFile(""Include/features/Transaction/Transaction.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:11:40,2022-11-05 20:12:14,34.071s,PASSED

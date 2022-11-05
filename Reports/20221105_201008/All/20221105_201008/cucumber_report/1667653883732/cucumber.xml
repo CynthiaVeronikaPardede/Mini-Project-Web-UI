@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="16.321157">
+<testcase classname="Register With Valid" name="User want to register with valid Credentials" time="8.066532">
+<system-out><![CDATA[Given user navigated to register page.......................................passed
+When user input nama1112 and nama1211@gmail.com  and also  passworddd2 .....passed
+And user click register button..............................................passed
+Then verifying condition for valid..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register With Valid" name="User want to register with failed" time="8.254625">
+<system-out><![CDATA[Given user navigated to register page.......................................passed
+When user enter nama1112 and  45  and also ()  with invalid.................passed
+And user click register button to register..................................passed
+Then verify condition for valid.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
